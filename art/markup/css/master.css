@@ -1,0 +1,456 @@
+/* =Main
+-----------------------------------------------------------------------------*/
+
+body {
+    background: #ffffff;
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+::selection {
+    color: #fff;
+    background-color: #D56621;
+    text-shadow: none;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+.wrapper {
+    margin: auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+/* =Links
+-----------------------------------------------------------------------------*/
+
+a {
+    color: #BE3F00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EA832F;
+}
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+
+/* =Header
+-----------------------------------------------------------------------------*/
+
+.main-header {
+    padding-top: 10px;
+}
+
+.main-header a {
+    color: #505050;
+}
+
+.main-header a:hover {
+    color: #EA832F;
+}
+
+.header-haxe-logo {
+    float: left;
+}
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+.main-nav {
+    float: right;
+}
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+#nav {
+    overflow: hidden;
+    margin-top: 1em;
+    border-radius: 12px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #DCDCDC));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #DCDCDC 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#DCDCDC', GradientType = 0);
+    width: 600px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+#nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#nav ul li:first-child a {
+    border-left: none;
+}
+
+#nav ul li.last a, #nav ul li.last span {
+    border-right: none;
+}
+
+#nav ul li a, #nav ul li span {
+    vertical-align: baseline;
+    /*line-height: 3.2em;*/
+    line-height: 2.4em;
+    padding: 0 24px;
+    text-decoration: none;
+    /*color: #000;*/
+    text-shadow: 0 1px 0 #fff;
+    display: block;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #f6f6f6;
+}
+
+#nav ul li a:hover {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f0f0f0', GradientType = 0);
+}
+
+#nav ul li span {
+    color: #888;
+    padding: 0 23px;
+    text-shadow: none;
+    background: #f8f8f8;
+}
+
+@media (max-width: 936px) {
+
+    #nav {
+        width: 100%;
+    }
+
+    .header-haxe-logo {
+        float: none;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    #nav ul li {
+    }
+}
+
+@media (max-width: 530px) {
+
+    #nav {
+        width: 100%;
+    }
+
+    #nav ul li {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* =Misc
+-----------------------------------------------------------------------------*/
+
+.home-tagline {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    max-width: 620px;
+    font-size: 1.3em;
+
+}
+
+.donate h3 {
+    color: #757575;
+    font-style: italic;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+
+    .donate h3 {
+        text-align: center;
+    }
+
+}
+
+/* =Orange Bar
+--------------*/
+
+a.content-bar-orange {
+    background: transparent url('../images/orange-content-headerbar-end.png') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    height: 46px;
+    padding-right: 25px;
+    text-decoration: none;
+    /*width:100%;*/
+    max-width: 538px;
+}
+
+a.content-bar-orange h3 {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2), -1px -1px 1px rgba(0, 0, 0, .4);
+    background: transparent url('../images/orange-content-headerbar-span.png') no-repeat;
+    display: block;
+    line-height: 46px;
+    padding-left: 20px;
+}
+
+a.content-bar-orange:active {
+    outline: none;
+}
+
+.support-plans span {
+    padding-left: 18px;
+    /*min-height: 142px;*/
+    /*height: 166px;*/
+    height: 11em;
+    display: block;
+}
+
+.support-plans h4 {
+    padding-top: 18px;
+}
+
+/* =Light Blue Button
+--------------*/
+
+a.button-light-blue {
+    background: transparent url('../images/button-light-blue-bg-end.png') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    height: 50px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: .9em;
+    width: 58%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 364px;
+
+}
+
+a.button-light-blue span {
+    font-weight: normal;
+    font-size: 1.3em;
+    background: transparent url('../images/button-light-blue-bg-span.png') no-repeat;
+    display: block;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+a.button-light-blue:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none;
+}
+
+/* =Light Green Buttons
+--------------*/
+
+a.button-light-green {
+    background: transparent url('../images/button-light-green-bg-end.png') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    height: 50px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: .9em;
+    width: 58%;
+    max-width: 364px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+a.button-light-green span {
+    font-weight: normal;
+    font-size: 1.3em;
+    background: transparent url('../images/button-light-green-bg-span.png') no-repeat;
+    display: block;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+a.button-light-green:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none;
+}
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+
+.home-footer {
+	margin-top: 160px;
+    padding-top: 40px;
+    width: 100%;
+    min-height: 400px;
+    background: #ede0ce url('../images/footer-bg.png') repeat;
+}
+
+.home-footer {
+    color: #ffffff;
+}
+
+.home-footer a {
+    color: #ffffff;
+}
+
+.home-footer a:hover {
+    color: #EA832F;
+}
+
+.footer-logo {
+    float: right;
+    text-align: right;
+}
+
+.footer-logo p {
+    margin-bottom: 0;
+}
+
+.home-footer  li {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+
+    .home-footer ul {
+        margin-left: 0;
+    }
+
+    .home-footer  li {
+        text-align: center;
+        /*margin: 0 auto;*/
+    }
+
+    .footer-logo {
+        float: none;
+        text-align: center;
+    }
+
+}
+
+/* =Slideshow
+-----------------------------------------------------------------------------*/
+
+.home-slideshow {
+    display: block;
+    margin: 0 auto;
+}
+
+.top {
+    background: url("../images/slideshow-bg-top.jpg") no-repeat scroll center top transparent;
+    display: block;
+    height: 56px;
+    width: 100%;
+    margin-top: -56px;
+}
+
+.bottom {
+    background: url("../images/slideshow-bg-bottom.jpg") no-repeat scroll center top transparent;
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-top: -4px;
+}
+
+.home-content {
+    padding-top: 60px;
+}
+
+.home-slider-container {
+    width: 100%;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_tabs {
+    padding-top: 40px;
+    width: 64px;
+    margin: 0 auto;
+}
+
+.rslides_tabs li {
+    list-style: none;
+    display: block;
+    float: left;
+}
+
+.rslides_tabs a {
+    background: url('../images/pager-inactive.png') no-repeat top center;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: inline-block;
+    _display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.rslides_tabs a:hover {
+    background: url('../images/pager-active.png') no-repeat top center;
+}
+
+.rslides_here a {
+    background: url('../images/pager-active.png') no-repeat top center;
+}
