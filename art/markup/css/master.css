@@ -1,11 +1,17 @@
 /* =Main
 -----------------------------------------------------------------------------*/
 
+html {
+
+}
+
 body {
-    background: #ffffff;
     color: #333333;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
+    background-color: #ffffff;
+    /*background-color: #F7F7F0;*/
+    /*background: #f0f1f4 url('../images/back-body-grey.jpg') repeat-x;*/
 }
 
 ::selection {
@@ -53,7 +59,8 @@ a:hover {
 -----------------------------------------------------------------------------*/
 
 .main-header {
-    padding-top: 10px;
+    background: transparent url('../images/header-bar.png') repeat-x top;
+    padding-top: 14px;
 }
 
 .main-header a {
@@ -81,17 +88,7 @@ a:hover {
 #nav {
     overflow: hidden;
     margin-top: 1em;
-    border-radius: 12px;
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #DCDCDC));
-    background: -webkit-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
-    background: -o-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%, #DCDCDC 100%);
-    background: linear-gradient(to bottom, #ffffff 0%, #DCDCDC 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#DCDCDC', GradientType = 0);
-    width: 600px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    width: 36em;
 }
 
 #nav ul {
@@ -105,36 +102,17 @@ a:hover {
     text-align: center;
 }
 
-#nav ul li:first-child a {
-    border-left: none;
-}
-
-#nav ul li.last a, #nav ul li.last span {
-    border-right: none;
-}
-
 #nav ul li a, #nav ul li span {
     vertical-align: baseline;
-    /*line-height: 3.2em;*/
     line-height: 2.4em;
     padding: 0 24px;
     text-decoration: none;
-    /*color: #000;*/
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 2px rgb(185, 185, 185);
     display: block;
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #f6f6f6;
 }
 
 #nav ul li a:hover {
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f0f0f0));
-    background: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
-    background: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
-    background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f0f0f0', GradientType = 0);
+
 }
 
 #nav ul li span {
@@ -184,14 +162,33 @@ a:hover {
     text-align: center;
     max-width: 620px;
     font-size: 1.3em;
-
 }
 
-.donate h3 {
-    color: #757575;
+.home-content-sections {
+    min-height: 19em;
+}
+
+.home-content-sections p{
+    text-align: justify;
+}
+
+.home-content-sections h3{
+    font-weight: lighter;
+}
+
+.subheader {
+    font-size: 1.2em;
     font-style: italic;
-    text-align: left;
+    font-weight: lighter;
+    color: rgb(255, 153, 0);
+    margin-bottom: 1em;
+    min-height: 5em;
 }
+
+.powered-title {
+    color: rgb(255, 153, 0);
+}
+
 
 @media (max-width: 768px) {
 
@@ -211,7 +208,6 @@ a.content-bar-orange {
     height: 46px;
     padding-right: 25px;
     text-decoration: none;
-    /*width:100%;*/
     max-width: 538px;
 }
 
@@ -230,82 +226,31 @@ a.content-bar-orange:active {
     outline: none;
 }
 
-.support-plans span {
-    padding-left: 18px;
-    /*min-height: 142px;*/
-    /*height: 166px;*/
-    height: 11em;
-    display: block;
-}
-
-.support-plans h4 {
-    padding-top: 18px;
-}
-
-/* =Light Blue Button
+/* =Home Ad Button
 --------------*/
 
-a.button-light-blue {
-    background: transparent url('../images/button-light-blue-bg-end.png') no-repeat scroll top right;
-    color: #444;
-    display: block;
-    height: 50px;
-    padding-right: 30px;
-    text-decoration: none;
-    font-size: .9em;
-    width: 58%;
+.button-home-button span {
+    background-color: rgba(32, 32, 32, 0.77);
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 6px rgba(255, 71, 0, 0.6);
+    clear: both;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 1em;
     margin: 0 auto;
-    text-align: center;
-    max-width: 364px;
-
-}
-
-a.button-light-blue span {
-    font-weight: normal;
-    font-size: 1.3em;
-    background: transparent url('../images/button-light-blue-bg-span.png') no-repeat;
     display: block;
-    line-height: 50px;
-    padding-left: 20px;
+    text-align: center;
 }
 
-a.button-light-blue:active {
+.button-home-button:active {
     background-position: bottom right;
     color: #000;
     outline: none;
 }
 
-/* =Light Green Buttons
---------------*/
-
-a.button-light-green {
-    background: transparent url('../images/button-light-green-bg-end.png') no-repeat scroll top right;
-    color: #444;
-    display: block;
-    height: 50px;
-    padding-right: 30px;
-    text-decoration: none;
-    font-size: .9em;
-    width: 58%;
-    max-width: 364px;
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-a.button-light-green span {
-    font-weight: normal;
-    font-size: 1.3em;
-    background: transparent url('../images/button-light-green-bg-span.png') no-repeat;
-    display: block;
-    line-height: 50px;
-    padding-left: 20px;
-}
-
-a.button-light-green:active {
-    background-position: bottom right;
-    color: #000;
-    outline: none;
+.button-home-button span:hover {
+    color: rgb(255, 71, 0);
 }
 
 /* =Footer
@@ -316,7 +261,19 @@ a.button-light-green:active {
     padding-top: 40px;
     width: 100%;
     min-height: 400px;
-    background: #ede0ce url('../images/footer-bg.png') repeat;
+    background-image: linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
+    background-image: -o-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
+    background-image: -moz-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
+    background-image: -webkit-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
+    background-image: -ms-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
+    
+    background-image: -webkit-gradient(
+    	linear,
+    	left bottom,
+    	left top,
+    	color-stop(0.18, rgb(45,45,46)),
+    	color-stop(0.67, rgb(43,43,46))
+    );
 }
 
 .home-footer {
@@ -352,7 +309,6 @@ a.button-light-green:active {
 
     .home-footer  li {
         text-align: center;
-        /*margin: 0 auto;*/
     }
 
     .footer-logo {
@@ -371,7 +327,7 @@ a.button-light-green:active {
 }
 
 .top {
-    background: url("../images/slideshow-bg-top.jpg") no-repeat scroll center top transparent;
+    background: url("../images/slideshow-bg-top.png") no-repeat scroll center top transparent;
     display: block;
     height: 56px;
     width: 100%;
@@ -379,7 +335,7 @@ a.button-light-green:active {
 }
 
 .bottom {
-    background: url("../images/slideshow-bg-bottom.jpg") no-repeat scroll center top transparent;
+    background: url("../images/slideshow-bg-bottom.png") no-repeat scroll center top transparent;
     display: block;
     height: 40px;
     width: 100%;
@@ -401,6 +357,7 @@ a.button-light-green:active {
     width: 100%;
     padding: 0;
     margin: 0;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .rslides li {
@@ -426,8 +383,8 @@ a.button-light-green:active {
 }
 
 .rslides_tabs {
-    padding-top: 40px;
-    width: 64px;
+    padding-top: 4px;
+    width: 86px;
     margin: 0 auto;
 }
 

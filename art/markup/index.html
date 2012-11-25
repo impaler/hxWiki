@@ -1,235 +1,236 @@
 <!DOCTYPE html>
 <html>
 
-<head>	
-	<title>Title</title>
-	<meta charset="utf-8">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
 
-	<link rel="stylesheet" type="text/css" href="css/kube.min.css" /> 	
-	<link rel="stylesheet" type="text/css" href="css/master.css" />
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300italic,400italic,300' rel='stylesheet' type='text/css'>
-    
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script src="js/responsiveslides.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/kube.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/master.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300italic,400italic,300' rel='stylesheet'
+          type='text/css'>
 
-	<script>
-	$(function () {
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
 
-	  $("#home-slider").responsiveSlides({
-	    auto: true,
-	    pager: true,
-	    nav: false,
-	    timeout: 6000,
-	    speed: 800
-	  });
+    <script>
+        $(function ()
+          {
 
-	});
-	</script>
+              $("#home-slider").responsiveSlides({
+                                                     auto: true,
+                                                     pager: true,
+                                                     nav: false,
+                                                     timeout: 6000,
+                                                     speed: 800
+                                                 });
+
+          });
+    </script>
 
 </head>
 
 <body>
 
-<header class="wrapper main-header">
+<header class="main-header">
 
-	<div class="header-haxe-logo">
-		<img src="images/header-haxe-logo.png" />
-	</div>
+    <div class="wrapper">
+        <img src="images/header-haxe-logo.png" class="header-haxe-logo"/>
 
-	<nav id="nav" class="main-nav">
-		<ul>
-			<li>
-				<a href="/about">About</a>
-			</li>
-			<li>
-				<a href="/support">Support</a>
-			</li>
-			<li>
-				<a href="/projects">Projects</a>
-			</li>
-			<li>
-				<a href="/donate">Donate</a>
-			</li>
-			<li>
-				<a href="/contact">Contact</a>
-			</li>
-		</ul>
-	</nav>
+        <nav id="nav" class="main-nav">
+            <ul>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/support">Support</a>
+                </li>
+                <li>
+                    <a href="/projects">Projects</a>
+                </li>
+                <li>
+                    <a href="/donate">Donate</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
-	<br style="clear:both;">
+    </div>
+
+    <br style="clear:both;">
 
 </header>
 
 <div class="home-tagline">
 
-	<p>The Haxe Foundation supports and further develops the 
-Haxe programming language and the core technologies built around it.</p>
+    <p>The Haxe Foundation supports and further develops the
+        Haxe programming language and the core technologies built around it.</p>
 
 </div>
 
 <section class="wrapper">
 
-<div class="row">
+    <div class="row">
 
-	<div class="home-slideshow">
-		<span class="top"></span>
-		<span class="bottom"></span>
-	
-	<div class="home-slider-container">
+        <div class="home-slideshow">
+            <span class="top"></span>
+            <!--<span class="bottom"></span>-->
 
-	<ul id="home-slider">
-		<li>
-			<a href="/about">
-			<img src="images/slideshow-one-language-everywhere.jpg" /></a>
-		</li>
-		<li>
-			<a href="http://www.haxenme.org" target="_blank">
-			<img src="images/slideshow-haxenme.jpg" /></a>
-		</li>
-		<li>
-			<a href="http://wwx.haxe.org/" target="_blank">
-			<img src="images/slideshow-wwx.jpg" /></a>
-		</li>
-	</ul>
-	</div>
-		
-	<span class="bottom"></span>
+            <div class="home-slider-container">
 
-	</div>
+                <ul id="home-slider">
+                    <li>
+                        <a href="/about">
+                            <img src="images/slideshow-one-language-everywhere.jpg"/></a>
+                    </li>
+                    <li>
+                        <a href="http://www.haxejs.org" target="_blank">
+                            <img src="images/slideshow-html5.jpg"/></a>
+                    </li>
+                    <li>
+                        <a href="http://www.haxenme.org" target="_blank">
+                            <img src="images/slideshow-haxenme.jpg"/></a>
+                    </li>
+                    <li>
+                        <a href="http://wwx.haxe.org/" target="_blank">
+                            <img src="images/slideshow-wwx.jpg"/></a>
+                    </li>
+                </ul>
+            </div>
 
-	</div>
+            <span class="bottom"></span>
 
-<ul class="block-two" id="intro">
+        </div>
 
-		<li>
-			<div class="inner donate">
-				<h3>"The backbone of the Haxe programming language"</h3>
+    </div>
 
-				<h4 class="subheader">We are proudly working to support the whole Haxe ecosystem by funding it's core technologies.</h4>
+    <ul class="block-three" id="intro">
 
-				<p>Sponsor us and become an important part of making Haxe's long term and immediate goals happen.</p>
+        <li>
+            <div class="inner ">
+            <div class="home-content-sections ">
+                <h3>Support Haxe</h3>
+                
+                <h4 class="subheader">We are proudly working to support the entire Haxe ecosystem by funding it's core
+                    technologies.</h4>
 
-				<a href="#" class="button-light-green"><span>Donate</span></a>
-			</div>		
-		</li>
-		<li>
-			<div class="inner support-plans">
-				<a href="#" class="content-bar-orange"><h3>Support Plans</h3></a>
-				
-				<span>
-					<h4 class="subheader">Become a part of supporting Haxe and get the level of support you need.</h4>
-					<p>We offer first class pofessional support from the people who work on Haxe itself.</p>
-				</span>
+                <p>Sponsor us and become an important part of Haxe's long term and immediate goals. One of Haxe's strength has always been in it's community who continue to use and improve it.</p>
 
-				<a href="#" class="button-light-blue"><span>View our Plans</span></a>
-			</div>		
-		</li>
+            </div>
+                <a href="#" class="button-home-button"><span>Donate</span></a>
+            </div>
+        </li>
+        <li>
+            <div class="inner evaluation">
+            <div class="home-content-sections">
+                <h3>Evaluating Haxe?</h3>
 
-	</ul>
-			
-<!-- 
-			<div class="inner evaluation">
-				<h3>Evaluating Haxe?</h3>
+                <h4 class="subheader">If you are currently evaluating Haxe from either a business or technical point of
+                    view, you can contact us.</h4>
 
-				<h4 class="subheader">If you are currently evaluating Haxe from either a business or technical point of view, you can contact us.</h4>
+                <p>We can help you either directly, or by putting you in touch with a consultant that will be able to
+                    help you understand how your company can benefit by using Haxe.</p>
 
-				<p>We can help you either directly, or by putting you in touch with a consultant that will be able to help you understand how your company can benefit by using Haxe.</p>
+            </div>
+                <a href="#" class="button-home-button"><span>Why Use Haxe?</span></a>
+            </div>
+        </li>
+        <li>
+            <div class="inner support-plans">
+            <div class="home-content-sections">
+                <h3>Support Plans</h3>
 
-				<a href="#">Why Use Haxe?</a>
-			</div>		
+                <h4 class="subheader">We offer first class professional support from the people who work on Haxe itself.</h4>
 
- -->
+                <p>Become a part of supporting Haxe and get the level of support you need. Our support plans cover many levels and can be adapted to your specific needs.</p>
+
+            </div>
+                <a href="#" class="button-home-button"><span>View our Plans</span></a>
+            </div>
+        </li>
+
+
+    </ul>
+
 
 </section>
 
 </div>
 
 
-
-
-
-
-
 <footer class="home-footer">
 
-<div class="wrapper">
+    <div class="wrapper">
 
 
-<div class="row">
-    <div class="third">
+        <div class="row">
+            <div class="third">
 
 
-
-		<nav class="nav-footer">
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Support</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Donate</a></li>											
-				<li><a href="#">Contact</a></li>								
-			</ul>				
-		</nav>
-
+                <nav class="nav-footer">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
 
 
-
-		<nav class="nav-footer-wiki">
-			<ul>
-				<li><a href="#">Map</a></li>
-				<li><a href="#">Latest Changes</a></li>
-				<li><a href="#">Login</a></li>							
-			</ul>				
-		</nav>
-</div>
-
-
-<div class="third">
-    
-
-	<div class="twitter">
-<!-- //todo twitter -->
-<!-- <a class="twitter-timeline" href="https://twitter.com/haxe_org" data-widget-id="270421417571524608">Tweets by @haxe_org</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
- -->
-
-					<ul>
-				<li><a href="#">Twitter post 1</a></li>
-				<li><a href="#">Twitter post 2</a></li>
-				<li><a href="#">Twitter post 3</a></li>							
-			</ul>
-	</div>
+                <nav class="nav-footer-wiki">
+                    <ul>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">Latest Changes</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
 
 
-</div>
+            <div class="third">
 
 
-<div class="third">
+                <div class="twitter">
+                    <ul>
+                        <li><a href="#">Twitter post 1</a></li>
+                        <li><a href="#">Twitter post 2</a></li>
+                        <li><a href="#">Twitter post 3</a></li>
+                    </ul>
+                </div>
 
 
-	<div class="footer-logo">
-
-	<img src="images/haxe-logo-footer.png" />
-		<br>
-		<br>
-	<p>All rights reserved</p>
-	<p>Powered by Haxe</p>
-
-	</div>
-
-</div>
+            </div>
 
 
+            <div class="third">
 
 
-	</div>	
+                <div class="footer-logo">
+
+                    <img src="images/haxe-logo-footer.png"/>
+                    <br>
+                    <br>
+
+                    <p>All rights reserved</p>
+
+                    <p><span class="powered-title">Powered by Haxe</span></p>
+
+                </div>
+
+            </div>
 
 
-</div>
+        </div>
+
+
+    </div>
 
 
 </footer>
-		
+
 </body>
 
 </html>
