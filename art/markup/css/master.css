@@ -4,6 +4,17 @@
 html {
 
 }
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
 
 body {
     color: #333333;
@@ -32,12 +43,43 @@ nav {
 
 }
 
+blockquote {
+    margin-bottom: 0;
+    padding-left: 0;
+    border:none;
+    color: #ff8843;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.justify {
+    text-align: justify;
+}
+
+div.y {
+    background-image: url('../images/tick.png');
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+
 /* =Layout
 -----------------------------------------------------------------------------*/
 .wrapper {
     margin: auto;
     max-width: 940px;
     padding: 0 10px;
+}
+
+.content-container {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgb(221, 221, 221);
 }
 
 /* =Links
@@ -60,7 +102,7 @@ a:hover {
 
 .main-header {
     background: transparent url('../images/header-bar.png') repeat-x top;
-    padding-top: 14px;
+    padding-top: 20px;
 }
 
 .main-header a {
@@ -73,6 +115,8 @@ a:hover {
 
 .header-haxe-logo {
     float: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 /* =Nav
@@ -99,13 +143,13 @@ a:hover {
 #nav ul li {
     float: left;
     width: 20%;
-    text-align: center;
+    text-align: right;
 }
 
 #nav ul li a, #nav ul li span {
     vertical-align: baseline;
     line-height: 2.4em;
-    padding: 0 24px;
+    /*padding: 0 24px;*/
     text-decoration: none;
     text-shadow: 1px 1px 2px rgb(185, 185, 185);
     display: block;
@@ -135,6 +179,7 @@ a:hover {
     }
 
     #nav ul li {
+        text-align: center;
     }
 }
 
@@ -147,6 +192,7 @@ a:hover {
     #nav ul li {
         float: none;
         width: 100%;
+        text-align: center;
     }
 }
 
@@ -180,9 +226,10 @@ a:hover {
     font-size: 1.2em;
     font-style: italic;
     font-weight: lighter;
-    color: rgb(255, 153, 0);
+    color: rgb(255, 102, 0);
     margin-bottom: 1em;
     min-height: 5em;
+    text-align: justify;
 }
 
 .powered-title {
@@ -197,6 +244,32 @@ a:hover {
     }
 
 }
+
+.support-plans thead th, thead td {
+    min-width: 6em;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    .support-plans thead th, thead td {
+        min-width: 0;
+    }
+
+}
+
+.support-plans tfoot td {
+    background-color: #e8e5e4;
+}
+
+.thead-plan th {
+    font-weight: normal;
+    color: #f6f6f6;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(78, 78, 78);
+}
+
+
 
 /* =Orange Bar
 --------------*/
