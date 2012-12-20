@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Promote Haxe</title>
+    <title>Foundation Members</title>
     <meta charset="utf-8">
 
     <link rel="stylesheet" type="text/css" href="css/kube.min.css"/>
@@ -22,30 +22,13 @@
 
         <div class="content-container">
 
-            <h1>Promote Haxe</h1>
+            <h1>Foundation Members</h1>
 
             <div class="row">
 
                 <div class="half justify">
 
-
-                    <p>Haxe is the success it is today with help from our wonderful and passionate community.</p>
-                    //todo
-
-
-                    <h2>Logos</h2>
-
-                    <p>Haxe Logo</p>
-                    <a href="#">SVG</a>
-                    <a href="#">EPS</a>
-                    <a href="#">JPG</a>
-                    <a href="#">PNG</a>
-
-                    <p>NME Logo</p>
-                    <a href="#">SVG</a>
-                    <a href="#">EPS</a>
-                    <a href="#">JPG</a>
-                    <a href="#">PNG</a>
+                    <h2>//todo</h2>
 
                 </div>
 

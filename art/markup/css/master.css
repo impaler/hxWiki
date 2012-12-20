@@ -4,6 +4,11 @@
 html {
 
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
 h1 {
     font-size: 1.7em;
 }
@@ -16,18 +21,22 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    font-weight: 400;;
+}
+
 body {
     color: #333333;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     /*background-color: #F7F7F0;*/
     /*background: #f0f1f4 url('../images/back-body-grey.jpg') repeat-x;*/
 }
 
 ::selection {
     color: #fff;
-    background-color: #D56621;
+    background-color: #d5890c;
     text-shadow: none;
 }
 
@@ -46,7 +55,7 @@ nav {
 blockquote {
     margin-bottom: 0;
     padding-left: 0;
-    border:none;
+    border: none;
     color: #ff8843;
     font-weight: bold;
     font-size: 1.3em;
@@ -54,18 +63,18 @@ blockquote {
     padding-bottom: 20px;
 }
 
-
-.justify {
-    text-align: justify;
+body {
+    background: transparent url('../images/bg.gif') repeat left top;
 }
 
-div.y {
-    background-image: url('../images/tick.png');
-    display: inline-block;
-    height: 16px;
-    width: 16px;
+hr {
+    border-top: 1px solid #EA832F;
 }
 
+.gradient {
+    background: transparent url("../images/gradient.png") no-repeat center top;
+    min-height: 840px;
+}
 
 /* =Layout
 -----------------------------------------------------------------------------*/
@@ -80,6 +89,7 @@ div.y {
     border: 1px solid;
     border-radius: 8px;
     border-color: rgb(221, 221, 221);
+    background-color: #ffffff;
 }
 
 /* =Links
@@ -124,6 +134,11 @@ a:hover {
 
 .main-nav {
     float: right;
+    margin: 0;
+}
+
+.main-nav ul {
+    margin: 0;
 }
 
 /* =Nav
@@ -137,7 +152,6 @@ a:hover {
 
 #nav ul {
     list-style: none;
-    margin: 0;
 }
 
 #nav ul li {
@@ -170,12 +184,14 @@ a:hover {
 
     #nav {
         width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 
     .header-haxe-logo {
         float: none;
         margin: 0 auto;
-        width: 300px;
+        display: block;
     }
 
     #nav ul li {
@@ -186,6 +202,8 @@ a:hover {
 @media (max-width: 530px) {
 
     #nav {
+        margin-top: 0;
+        margin-bottom: 20px;
         width: 100%;
     }
 
@@ -202,7 +220,7 @@ a:hover {
 .home-tagline {
     display: block;
     margin: 0 auto;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
@@ -211,15 +229,22 @@ a:hover {
 }
 
 .home-content-sections {
-    min-height: 19em;
+    min-height: 20em;
 }
 
-.home-content-sections p{
+.home-btn {
+    font-size: 1.1em;
+    padding-top: .6em;
+    display: block;
+    padding-bottom: .6em;
+}
+
+.home-content-sections p {
     text-align: justify;
 }
 
-.home-content-sections h3{
-    font-weight: lighter;
+.home-content-sections h3 {
+    font-weight: 400;
 }
 
 .subheader {
@@ -236,6 +261,16 @@ a:hover {
     color: rgb(255, 153, 0);
 }
 
+.justify {
+    text-align: justify;
+}
+
+div.y {
+    background-image: url('../images/tick.png');
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
 
 @media (max-width: 768px) {
 
@@ -259,7 +294,8 @@ a:hover {
 }
 
 .support-plans tfoot td {
-    background-color: #e8e5e4;
+    background-color: rgb(231, 231, 231);;
+
 }
 
 .thead-plan th {
@@ -269,34 +305,91 @@ a:hover {
     background-color: rgb(78, 78, 78);
 }
 
-
-
-/* =Orange Bar
---------------*/
-
-a.content-bar-orange {
-    background: transparent url('../images/orange-content-headerbar-end.png') no-repeat scroll top right;
-    color: #444;
-    display: block;
-    height: 46px;
-    padding-right: 25px;
-    text-decoration: none;
-    max-width: 538px;
+.menu {
+    width: 200px;
+    list-style-type: none;
 }
 
-a.content-bar-orange h3 {
-    color: #ffffff;
-    font-weight: normal;
-    font-size: 1.3em;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2), -1px -1px 1px rgba(0, 0, 0, .4);
-    background: transparent url('../images/orange-content-headerbar-span.png') no-repeat;
+.toplevel {
     display: block;
-    line-height: 46px;
+    padding: 0 10px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.dropdown {
+    z-index: 200;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 12em;
+    list-style-type: none;
+    z-index: 200;
+
+    margin-top: 6em;
+
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    border-radius: 10px;
+}
+
+#nav .submenu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+
+.home-ads {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #dddddd;
+}
+
+.support-containers {
+    min-height: 10em;
+}
+
+.support-containers h4 {
+    border-bottom: 1px solid;
+    border-bottom-color: #ffa73f;
+
+}
+
+.about-icons {
+    border-top: 1px solid #ffa73f;
+    padding: 26px 0 12px;
+}
+
+.about-icons img {
+    float: left;
     padding-left: 20px;
 }
 
-a.content-bar-orange:active {
-    outline: none;
+/*.about-icons p{*/
+/*float: left;    padding-left: 20px;*/
+/*}*/
+.about-icons h3 {
+    float: left;
+    padding-left: 20px;
+}
+
+.image-shadow {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 /* =Home Ad Button
@@ -330,23 +423,17 @@ a.content-bar-orange:active {
 -----------------------------------------------------------------------------*/
 
 .home-footer {
-	margin-top: 160px;
+    margin-top: 160px;
     padding-top: 40px;
     width: 100%;
     min-height: 400px;
-    background-image: linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
-    background-image: -o-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
-    background-image: -moz-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
-    background-image: -webkit-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
-    background-image: -ms-linear-gradient(bottom, rgb(45,45,46) 18%, rgb(43,43,46) 67%);
-    
-    background-image: -webkit-gradient(
-    	linear,
-    	left bottom,
-    	left top,
-    	color-stop(0.18, rgb(45,45,46)),
-    	color-stop(0.67, rgb(43,43,46))
-    );
+    background-image: linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -o-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -moz-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -webkit-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -ms-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.18, rgb(45, 45, 46)), color-stop(0.67, rgb(43, 43, 46)));
 }
 
 .home-footer {
@@ -399,22 +486,6 @@ a.content-bar-orange:active {
     margin: 0 auto;
 }
 
-.top {
-    background: url("../images/slideshow-bg-top.png") no-repeat scroll center top transparent;
-    display: block;
-    height: 56px;
-    width: 100%;
-    margin-top: -56px;
-}
-
-.bottom {
-    background: url("../images/slideshow-bg-bottom.png") no-repeat scroll center top transparent;
-    display: block;
-    height: 40px;
-    width: 100%;
-    margin-top: -4px;
-}
-
 .home-content {
     padding-top: 60px;
 }
@@ -430,7 +501,7 @@ a.content-bar-orange:active {
     width: 100%;
     padding: 0;
     margin: 0;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 .rslides li {
@@ -456,8 +527,8 @@ a.content-bar-orange:active {
 }
 
 .rslides_tabs {
-    padding-top: 4px;
-    width: 86px;
+    padding-top: 30px;
+    width: 132px;
     margin: 0 auto;
 }
 
@@ -465,6 +536,7 @@ a.content-bar-orange:active {
     list-style: none;
     display: block;
     float: left;
+    padding: 6px;
 }
 
 .rslides_tabs a {

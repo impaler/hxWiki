@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Promote Haxe</title>
+    <title>Success Stories</title>
     <meta charset="utf-8">
 
     <link rel="stylesheet" type="text/css" href="css/kube.min.css"/>
@@ -22,39 +22,27 @@
 
         <div class="content-container">
 
-            <h1>Promote Haxe</h1>
+            <h1>Success Stories</h1>
 
             <div class="row">
 
                 <div class="half justify">
 
-
-                    <p>Haxe is the success it is today with help from our wonderful and passionate community.</p>
-                    //todo
+                    <p>//todo (coming soon, we have already many of these)</p>
 
 
-                    <h2>Logos</h2>
-
-                    <p>Haxe Logo</p>
-                    <a href="#">SVG</a>
-                    <a href="#">EPS</a>
-                    <a href="#">JPG</a>
-                    <a href="#">PNG</a>
-
-                    <p>NME Logo</p>
-                    <a href="#">SVG</a>
-                    <a href="#">EPS</a>
-                    <a href="#">JPG</a>
-                    <a href="#">PNG</a>
+                    <p><a href="/contact.php">Contact us</a> if you are using Haxe and want to contribute your
+                        success story.</p>
 
                 </div>
 
                 <div class="half justify">
 
+
                 </div>
 
             </div>
-        </div>
+
 
     </section>
 </div>
