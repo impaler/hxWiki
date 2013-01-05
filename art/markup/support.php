@@ -5,12 +5,8 @@
     <title>Haxe Support</title>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="css/kube.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/master.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300italic,400italic,300' rel='stylesheet'
-          type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/dropdown.js"></script>
+    <?php include('./sections/styles.php'); ?>
+    <?php include('./sections/scripts.php'); ?>
 
 </head>
 
@@ -40,7 +36,7 @@
 
         <p>If you are using Haxe and need a specific feature, or if you simply want to sponsor a feature for an existing
             Haxe Foundation supported project, you can offer a bounty for it!</p>
-        <a href="/bounties.php" class="btn btn-round home-btn"><span>Bounties Program</span></a>
+        <a href="bounties.php" class="btn btn-round home-btn"><span>Bounties Program</span></a>
 
     </div>
 
@@ -192,10 +188,11 @@
     <div class="half justify">
         <p>If you want to get paid support or if you have any question regarding our paid support plans, please contact
             us;</p>
-        <span class="btn btn-round">Contact Form</span>
+        
+        <a href="contact.php" class="btn btn-round home-btn"><span>Contact Us</span></a>
+        
         <br>
-        <br>
-        <span class="">contact@haxe.org</span>
+        
     </div>
 
     <div class="half justify">

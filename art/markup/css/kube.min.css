@@ -1126,7 +1126,9 @@ a.green:hover, a.red:hover, a.error:hover {
     color: #000
 }
 
-@media only screen and (max-width:767px) {
+@media  (max-width:767px),
+  (max-device-width:767px)
+{
     .row .half, .row .third, .row .quarter, .row .fifth, .row .sixth, .row .twothird, .row .twofifth, .row .threefifth, .row .fourfifth, .row .fivesixth, .row .threequarter {
         margin-left: 0;
         width: 100%

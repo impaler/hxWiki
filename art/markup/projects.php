@@ -5,12 +5,8 @@
     <title>Haxe Foundation Supported Projects</title>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="css/kube.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/master.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300italic,400italic,300' rel='stylesheet'
-          type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/dropdown.js"></script>
+    <?php include('./sections/styles.php'); ?>
+    <?php include('./sections/scripts.php'); ?>
 
 </head>
 
@@ -31,41 +27,78 @@
                 <div id="content">
 
 
-                    <div class="view">
+                    <p>The Haxe Foundation is sponsoring the following projects:</p>
 
-                        <p>The Haxe Foundation is sponsoring the following projects:</p>
+                    <hr>
+                    
+                    
+                    <div class="row">
 
-                        <div class="imageList">
-                            <ul>
-                                <li><img src="/images/logo.png" alt="logo.png" class="intern"> <b>Haxe</b> compiler and
-                                    standard library: the core technical base on which everything else is built.
-                                    Released as
-                                    Open Source on <a href="http://code.google.com/p/haxe" class="extern">Google
-                                        Code</a>,
-                                    and available on <a href="http://haxe.org" class="extern">Haxe.org</a>
-                                </li>
-
-                                <li><img src="/images/haxelib.png" alt="haxelib.png" class="intern"> <b>Haxelib</b>: the
-                                    haxe
-                                    open source libraries repository, on which developers can easily share libraries
-                                    with
-                                    others. Check <a href="http://lib.haxe.org" class="extern">http://lib.haxe.org</a>
-                                </li>
-
-                                <li><img src="/images/nme.png" alt="nme.png" class="intern"> <b>NME</b>: NME is a
-                                    complete
-                                    cross platform game engine which leverage Haxe to be one of the best tool to build
-                                    mobile and web games. Based on the familiar Flash API, NME runs native on every
-                                    device.
-                                    Read more on <a href="http://haxenme.org" class="extern">http://haxenme.org</a>
-                                </li>
-
-                            </ul>
+                        <div class="fifth">
+                            <img src="images/logo.png" alt="logo.png"/>
                         </div>
-                        <p>If you want to contribute to one of the Foundation-supported projects, have a look at our <a
-                                href="/bounties" class="intern">Bounties Program</a></p>
 
+                        <div class="fourfifth">
+                            <h3>Haxe compiler and standard library</h3>
+
+                            <p>the core technical base on which everything else is built.
+                                Released as Open Source on <a href="http://code.google.com/p/haxe" class="extern">Google
+                                    Code</a>,
+                                and available on <a href="http://haxe.org">Haxe.org</a>
+                            </p>
+                        </div>
                     </div>
+
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="fifth">
+                            <img src="images/haxelib.png" alt="haxelib.png"/>
+                        </div>
+
+                        <div class="fourfifth">
+                            <h3>Haxelib</h3>
+                            <p> the haxe open source libraries repository, on which developers can easily share libraries with
+                                others. Check <a href="http://lib.haxe.org">http://lib.haxe.org</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+
+                    <div class="row">
+
+                        <div class="fifth">
+                            <img src="images/nme.png" alt="nme.png"/>
+                        </div>
+
+                        <div class="fourfifth">
+                            <h3>NME</h3>
+                            <p>NME is a complete cross platform game engine which leverage Haxe to be one of the best tool to build
+                                mobile and web games. Based on the familiar Flash API, NME runs native on every device.
+                                Read more on <a href="http://nme.io">http://haxenme.org</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    
+                    <div class="row">
+                   
+                                   <div class="half">
+                                       <p>If you want to contribute to one of the Foundation-supported projects, have a look at our Bounties Program.</p>
+                                   </div>
+                   
+                                   <div class="half">
+                                       <a href="bounties.php" class="btn btn-round home-btn"> <span>Bounties Program</span></a>
+                                   </div>
+                   
+                               </div>
+                    
+               
 
 
                 </div>

@@ -1,0 +1,81 @@
+/* jquery.minitwitter.js - http://minitwitter.webdevdesigner.com/
+ 	Copyright (c) 2012 Olivier Bréchet */
+
+.tweets {
+	max-width:520px;
+	font:13px/17px "Tahoma",Helvetica,Arial,sans-serif;
+	color: #ffffff;
+	margin:auto;
+}
+
+.tweets a {
+	color:#0083b3;
+	text-decoration:none;
+}
+
+.tweets a:active {
+	color:#0083b3;
+}
+
+.tweets a:hover {
+}
+
+.tweets .tweet {
+	padding:12px 12px;
+    border-bottom: 1px solid;
+    border-color: #939393;
+}
+
+.tweets .tweets_header {
+	padding:12px 12px;
+	font-weight:bold;
+	font-size:14px;
+    border-bottom: 1px solid;
+    border-color: #939393;
+}
+
+.tweets .tweets_header a {
+	color: #afafaf !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+	font-style:normal !important;
+	text-transform:lowercase !important;
+}
+
+.tweets .tweets_header a:hover {
+	text-decoration:underline !important;
+}
+
+.tweets .tweet .time {
+	float:right;
+	color:#999;
+	font-size:11px;
+}
+
+.tweets .tweet .avatar {
+	float:left;
+	margin-right:12px;
+}
+
+.tweets .tweet .avatar img {
+}
+
+.mt_header {
+	padding-bottom:2px;
+	padding-left:60px;
+}
+
+.mt_screen_name {
+	font-size:12px;
+	color:#999;
+}
+
+.mt_header a {
+	font-weight:bold;
+	color: #949494;
+	text-decoration:none;
+}
+
+.mt_text {
+	padding-left:60px;
+}

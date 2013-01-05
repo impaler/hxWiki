@@ -5,12 +5,8 @@
     <title>About the Haxe Foundation</title>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="css/kube.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/master.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300italic,400italic,300' rel='stylesheet'
-          type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/dropdown.js"></script>
+    <?php include('./sections/styles.php'); ?>
+    <?php include('./sections/scripts.php'); ?>
 
 </head>
 
@@ -64,7 +60,7 @@
                 </div>
 
                 <div class="twothird">
-                    <p>Support the whole Haxe ecosystem by funding it's core technologies and <a href="/projects.php"
+                    <p>Support the whole Haxe ecosystem by funding it's core technologies and <a href="projects.php"
                                                                                                  class="intern">Projects.</a>
                     </p>
                 </div>
@@ -117,13 +113,13 @@
                 <div class="half">
                     <p>Evaluating Haxe? Keep reading on about why Haxe is a strong and reliable choice.</p>
 
-                    <a href="/why_haxe.php" class="btn btn-round home-btn"><span>Why Haxe?</span></a>
+                    <a href="why_haxe.php" class="btn btn-round home-btn"><span>Why Haxe?</span></a>
                 </div>
 
                 <div class="half">
                     <p>Read how buisnesses and individuals are being successful with Haxe as their main technology
                         choice.</p>
-                    <a href="/success_stories.php" class="btn btn-round home-btn"><span>Success Stories</span></a>
+                    <a href="success_stories.php" class="btn btn-round home-btn"><span>Success Stories</span></a>
                 </div>
 
             </div>

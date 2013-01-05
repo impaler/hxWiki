@@ -22,7 +22,7 @@ h3 {
 }
 
 h4 {
-    font-weight: 400;;
+    font-weight: 400;
 }
 
 body {
@@ -75,6 +75,15 @@ hr {
     background: transparent url("../images/gradient.png") no-repeat center top;
     min-height: 840px;
 }
+
+@media (max-width: 768px),
+(max-device-width:768px)
+{
+    .gradient {
+        min-height: inherit;
+    }
+}
+
 
 /* =Layout
 -----------------------------------------------------------------------------*/
@@ -166,7 +175,7 @@ a:hover {
     /*padding: 0 24px;*/
     text-decoration: none;
     text-shadow: 1px 1px 2px rgb(185, 185, 185);
-    display: block;
+    /*display: block;*/
 }
 
 #nav ul li a:hover {
@@ -180,8 +189,9 @@ a:hover {
     background: #f8f8f8;
 }
 
-@media (max-width: 936px) {
-
+@media (max-width: 936px),
+(max-device-width:936px)
+{
     #nav {
         width: 100%;
         margin-top: 0;
@@ -199,8 +209,9 @@ a:hover {
     }
 }
 
-@media (max-width: 530px) {
-
+@media (max-width: 530px),
+(max-device-width:530px)
+{
     #nav {
         margin-top: 0;
         margin-bottom: 20px;
@@ -272,12 +283,12 @@ div.y {
     width: 16px;
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 768px),
+(max-device-width:768px)
+{
     .donate h3 {
         text-align: center;
     }
-
 }
 
 .support-plans thead th, thead td {
@@ -285,12 +296,12 @@ div.y {
     font-weight: bold;
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 600px),
+(max-device-width:600px)
+{
     .support-plans thead th, thead td {
         min-width: 0;
     }
-
 }
 
 .support-plans tfoot td {
@@ -419,6 +430,42 @@ div.y {
     color: rgb(255, 71, 0);
 }
 
+@media (max-width: 768px),
+(max-device-width:768px)
+{
+    .home-ads {
+        margin-bottom: 20px;
+    }
+    .home-content-sections { 
+        min-height: inherit;
+    }
+    .subheader {
+        min-height: inherit;
+    }
+    
+    .submenu  {
+       border:none;
+      }
+    .submenu li a {
+        display: none;
+      }
+      .submenu a {
+        padding: 0;
+      }
+    
+      .submenu:after {
+        content: "";
+        display: none;
+        left: 0;
+        width: 0;
+        height: 0;
+        position: inherit;
+        top: 0;
+      }
+}
+
+
+
 /* =Footer
 -----------------------------------------------------------------------------*/
 
@@ -461,8 +508,19 @@ div.y {
     list-style: none;
 }
 
-@media (max-width: 768px) {
+.nav-footer ul {
+    margin-left: 0;
+}
 
+.nav-footer a {
+    display: block;
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+@media (max-width: 768px),
+(max-device-width:768px)
+{
     .home-footer ul {
         margin-left: 0;
     }
@@ -475,7 +533,6 @@ div.y {
         float: none;
         text-align: center;
     }
-
 }
 
 /* =Slideshow

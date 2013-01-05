@@ -5,12 +5,8 @@
     <title>Promote Haxe</title>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="css/kube.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/master.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300italic,400italic,300' rel='stylesheet'
-          type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/dropdown.js"></script>
+    <?php include('./sections/styles.php'); ?>
+    <?php include('./sections/scripts.php'); ?>
 
 </head>
 
@@ -24,36 +20,52 @@
 
             <h1>Promote Haxe</h1>
 
+            
+            <p>Haxe is the success it is today with help from our wonderful and passionate community.</p>
+
+
+            <h2>Logos</h2>
+
             <div class="row">
 
-                <div class="half justify">
-
-
-                    <p>Haxe is the success it is today with help from our wonderful and passionate community.</p>
-                    //todo
-
-
-                    <h2>Logos</h2>
-
-                    <p>Haxe Logo</p>
-                    <a href="#">SVG</a>
-                    <a href="#">EPS</a>
-                    <a href="#">JPG</a>
-                    <a href="#">PNG</a>
-
-                    <p>NME Logo</p>
-                    <a href="#">SVG</a>
-                    <a href="#">EPS</a>
-                    <a href="#">JPG</a>
-                    <a href="#">PNG</a>
-
+                
+                <div class="half">
+                    <h3>Haxe Logo</h3>
+                    <img src="images/logo.png" alt="haxe.png"/><br>
+                    <a href="files/haxe-logo.svg">SVG</a>
+                    <a href="files/haxe-logo.eps">EPS</a>
+                    <a href="files/haxe-logo.png">PNG</a>
                 </div>
 
-                <div class="half justify">
-
+                <div class="half">
+                    <h3>NME Logo</h3>
+                    <img src="images/nme.png" alt="nme.png"/><br>
+                    <a href="files/nme-logo.svg">SVG</a>
+                    <a href="files/nme-logo.eps">EPS</a>
+                    <a href="files/nme-logo.png">PNG</a>
                 </div>
 
+                
             </div>
+            
+            
+           <h2>Link Logos</h2>
+            
+            <div class="row">
+                
+            <div class="half">
+                <h3>Powered By Haxe</h3>
+                <img src="files/powered-by-haxe.png" alt="powered-by-haxe.png"/><br>
+                <a href="#">SVG</a>
+                <a href="#">EPS</a>
+                <a href="#">JPG</a>
+                <a href="#">PNG</a>
+            </div>
+            
+        </div> 
+            
+            
+            
         </div>
 
     </section>
