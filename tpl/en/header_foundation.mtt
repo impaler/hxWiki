@@ -8,11 +8,8 @@
 
         <nav id="nav" class="main-nav menu">
 		<ul>
-			<li class="dropdown">
+			<li>
 				<a href="/about">About</a>
-					<ul class="submenu">
-						<li><a href="/why_haxe">Why Haxe</a></li>
-					</ul>
 			</li>
 			<li>
 				<a href="/projects">Projects</a>

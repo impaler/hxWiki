@@ -29,9 +29,6 @@ body {
     color: #333333;
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
-    /*background-color: #ffffff;*/
-    /*background-color: #F7F7F0;*/
-    /*background: #f0f1f4 url('../img/foundation/back-body-grey.jpg') repeat-x;*/
 }
 
 ::selection {
@@ -182,10 +179,7 @@ a:hover {
 #nav ul li a, #nav ul li span {
     vertical-align: baseline;
     line-height: 2.4em;
-    /*padding: 0 24px;*/
     text-decoration: none;
-    text-shadow: 1px 1px 2px rgb(185, 185, 185);
-    /*display: block;*/
 }
 
 #nav ul li a:hover {
@@ -401,9 +395,6 @@ div.y {
     padding-left: 20px;
 }
 
-/*.about-icons p{*/
-/*float: left;    padding-left: 20px;*/
-/*}*/
 .about-icons h3 {
     float: left;
     padding-left: 20px;
@@ -474,8 +465,6 @@ div.y {
       }
 }
 
-
-
 /* =Footer
 -----------------------------------------------------------------------------*/
 
@@ -489,7 +478,6 @@ div.y {
     background-image: -moz-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
     background-image: -webkit-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
     background-image: -ms-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
-
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.18, rgb(45, 45, 46)), color-stop(0.67, rgb(43, 43, 46)));
 }
 
