@@ -1,0 +1,5 @@
+<title>::if pageTitle::::pageTitle:: - ::end::::config.title::</title>
+
+::use 'css_foundation.mtt'::::end::
+
+::use 'js_foundation.mtt'::::end::

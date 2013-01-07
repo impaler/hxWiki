@@ -20,10 +20,6 @@
 
             <h1>Promote Haxe</h1>
 
-            
-            <p>Haxe is the success it is today with help from our wonderful and passionate community.</p>
-
-
             <h2>Logos</h2>
 
             <div class="row">

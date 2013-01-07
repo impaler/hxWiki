@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		::use 'head_foundation.mtt'::::end::
+			
+		<script src="/js/responsiveslides.min.js"></script>
+		<script>
+			$(function ()
+			  {
+				  $("#home-slider").responsiveSlides({
+														 auto: true,
+														 pager: true,
+														 nav: false,
+														 timeout: 6000,
+														 speed: 800
+													 });
+			  });
+		</script>
+	</head>
+
+	
+	<body>
+	
+	
+<div class="gradient">
+
+	::use 'header_foundation.mtt'::::end::
+
+    <div class="home-tagline">
+
+        <p>The Haxe Foundation supports and further develops the
+            Haxe programming language and the core technologies built around it.</p>
+
+    </div>
+
+    <section class="wrapper">
+
+        <div class="row">
+
+            <div class="home-slideshow">
+
+                <div class="home-slider-container">
+
+                    <ul id="home-slider">
+                        <li>
+                            <a href="about.php">
+                                <img src="img/foundation/slideshow-one-language-everywhere.jpg"/></a>
+                        </li>
+                        <li>
+                            <a href="http://www.haxejs.org" target="_blank">
+                                <img src="img/foundation/slideshow-html5.jpg"/></a>
+                        </li>
+                        <li>
+                            <a href="http://www.nme.io" target="_blank">
+                                <img src="img/foundation/slideshow-haxenme.jpg"/></a>
+                        </li>
+                        <li>
+                            <a href="http://wwx.haxe.org/" target="_blank">
+                                <img src="img/foundation/slideshow-wwx.jpg"/></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <ul class="block-three" id="intro">
+
+            <li>
+                <div class="inner home-ads">
+                    <div class="home-content-sections ">
+                        <h3>Support Haxe</h3>
+
+                        <h4 class="subheader">We are proudly working to support the entire Haxe ecosystem by funding
+                            it's core
+                            technologies.</h4>
+
+                        <p>Sponsor us and become an important part of Haxe's long term and immediate goals. One of
+                            Haxe's strengths has always been in it's community who continue to use and improve it.</p>
+
+                    </div>
+                    <a href="donate.php" class="btn btn-round home-btn"><span>Donate</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="inner home-ads">
+                    <div class="home-content-sections">
+                        <h3>Evaluating Haxe?</h3>
+
+                        <h4 class="subheader">If you are currently evaluating Haxe from either a business or technical
+                            point of
+                            view, you can contact us.</h4>
+
+                        <p>We can help you either directly, or by putting you in touch with a consultant that will be
+                            able to
+                            help you understand how your company can benefit by using Haxe.</p>
+
+                    </div>
+                    <a href="why_haxe.php" class="btn btn-round home-btn"><span>Why Use Haxe?</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="inner home-ads">
+                    <div class="home-content-sections">
+                        <h3>Support Plans</h3>
+
+                        <h4 class="subheader">We offer first class professional support from the people who work on Haxe
+                            itself.</h4>
+
+                        <p>Become a part of supporting Haxe and get the level of support you need. Our support plans
+                            cover many levels and can be adapted to your specific needs.</p>
+
+                    </div>
+                    <a href="support.php" class="btn btn-round home-btn"><span>View our Plans</span></a>
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+
+</div>
+
+::use 'footer_foundation.mtt'::::end::
+	
+	</body>
+
+
+
+
+</html>

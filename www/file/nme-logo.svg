@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   enable-background="new 0 0 32 32"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="nme-logo.svg"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"><metadata
+   id="metadata3531"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs3529" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1025"
+   id="namedview3527"
+   showgrid="false"
+   inkscape:zoom="5.2149125"
+   inkscape:cx="70.786295"
+   inkscape:cy="136.84476"
+   inkscape:window-x="-2"
+   inkscape:window-y="32"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1" />
+<g
+   transform="scale(0.78125,0.78125)"
+   id="g3507">
+	<rect
+   width="256"
+   height="256"
+   id="rect3509"
+   x="0"
+   y="0"
+   style="fill:#f05a22" />
+	<rect
+   x="198.39999"
+   y="89.599998"
+   width="57.599998"
+   height="25.601"
+   id="rect3511"
+   style="fill:#fcb813" />
+	<rect
+   x="198.39999"
+   y="115.2"
+   width="57.599998"
+   height="25.601"
+   id="rect3513"
+   style="fill:#fff100" />
+	<rect
+   x="198.39999"
+   y="140.80099"
+   width="57.599998"
+   height="25.6"
+   id="rect3515"
+   style="fill:#fcb813" />
+	<polygon
+   points="76.801,166.4 102.4,166.4 102.4,140.801 51.201,89.6 0,89.6 "
+   id="polygon3517"
+   style="fill:#fcb813" />
+	<polygon
+   points="189.439,166.4 189.439,104.96 153.6,140.801 153.6,166.4 "
+   id="polygon3519"
+   style="fill:#fff100" />
+	<polygon
+   points="189.439,89.6 189.439,104.96 153.6,140.801 128,115.2 153.6,89.6 "
+   id="polygon3521"
+   style="fill:#fcb813" />
+	<polygon
+   points="0,166.4 0,89.6 35.841,125.441 35.841,166.4 "
+   id="polygon3523"
+   style="fill:#fff100" />
+	<polygon
+   points="76.801,89.6 76.801,115.2 128,166.4 153.6,140.801 102.4,89.6 "
+   id="polygon3525"
+   style="fill:#fff100" />
+</g>
+</svg>

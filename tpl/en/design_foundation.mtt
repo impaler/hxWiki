@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	::use 'head_foundation.mtt'::::end::
+		
+	<script src="/js/responsiveslides.min.js"></script>
+
+</head>
+
+<body>
+	
+<div class="gradient">
+
+	::use 'header_foundation.mtt'::::end::
+
+    <section class="wrapper">
+
+		<div class="content-container">
+			::raw __content__::
+		</div>
+		
+    </section>
+
+</div>
+
+::use 'footer_foundation.mtt'::::end::
+	
+</body>
+
+</html>

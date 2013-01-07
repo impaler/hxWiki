@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	::use 'head_foundation.mtt'::::end::
+
+	<script src="/js/responsiveslides.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="gradient">
+
+	::use 'header_foundation.mtt'::::end::
+
+	<section class="wrapper">
+
+		<div class="content-container">
+			<h1>Contact Us</h1>
+
+			<div class="row">
+
+				<div class="half">
+					<p>We are here to answer your enquires and hear your feedback about our goals. If you would like to
+						send an email instead of the contact form please write to;</p>
+					<span class="">contact@haxe.org</span>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+</div>
+
+::use 'footer_foundation.mtt'::::end::
+
+</body>
+
+</html>

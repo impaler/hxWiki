@@ -1,0 +1,625 @@
+/* =Main
+-----------------------------------------------------------------------------*/
+
+html {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+body {
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    /*background-color: #ffffff;*/
+    /*background-color: #F7F7F0;*/
+    /*background: #f0f1f4 url('../img/foundation/back-body-grey.jpg') repeat-x;*/
+}
+
+::selection {
+    color: #fff;
+    background-color: #d5890c;
+    text-shadow: none;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+blockquote {
+    margin-bottom: 0;
+    padding-left: 0;
+    border: none;
+    color: #ff8843;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body {
+    background: transparent url('../img/foundation/bg.gif') repeat left top;
+}
+
+hr {
+    border-top: 1px solid #EA832F;
+}
+
+.gradient {
+    background: transparent url("../img/foundation/gradient.png") no-repeat center top;
+    min-height: 840px;
+}
+
+@media (max-width: 768px),
+(max-device-width:768px)
+{
+    .gradient {
+        min-height: inherit;
+    }
+}
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+.wrapper {
+    margin: auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+.content-container {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgb(221, 221, 221);
+    background-color: #ffffff;
+    min-height: 600px;
+}
+
+@media (max-width: 768px),
+(max-device-width:768px)
+{
+    .content-container {
+        min-height: inherit;
+    }
+}
+
+
+/* =Links
+-----------------------------------------------------------------------------*/
+
+a {
+    color: #BE3F00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EA832F;
+}
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+
+/* =Header
+-----------------------------------------------------------------------------*/
+
+.main-header {
+    background: transparent url('../img/foundation/header-bar.png') repeat-x top;
+    padding-top: 20px;
+}
+
+.main-header a {
+    color: #505050;
+}
+
+.main-header a:hover {
+    color: #EA832F;
+}
+
+.header-haxe-logo {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+.main-nav {
+    float: right;
+    margin: 0;
+}
+
+.main-nav ul {
+    margin: 0;
+}
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+#nav {
+    overflow: hidden;
+    margin-top: 1em;
+    width: 36em;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+
+#nav ul li a, #nav ul li span {
+    vertical-align: baseline;
+    line-height: 2.4em;
+    /*padding: 0 24px;*/
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(185, 185, 185);
+    /*display: block;*/
+}
+
+#nav ul li a:hover {
+
+}
+
+#nav ul li span {
+    color: #888;
+    padding: 0 23px;
+    text-shadow: none;
+    background: #f8f8f8;
+}
+
+@media (max-width: 936px),
+(max-device-width:936px)
+{
+    #nav {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .header-haxe-logo {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #nav ul li {
+        text-align: center;
+    }
+}
+
+@media (max-width: 530px),
+(max-device-width:530px)
+{
+    #nav {
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #nav ul li {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* =Misc
+-----------------------------------------------------------------------------*/
+
+.home-tagline {
+    display: block;
+    margin: 0 auto;
+    /*padding-top: 20px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    max-width: 620px;
+    font-size: 1.3em;
+}
+
+.home-content-sections {
+    min-height: 20em;
+}
+
+.home-btn {
+    font-size: 1.1em;
+    padding-top: .6em;
+    display: block;
+    padding-bottom: .6em;
+}
+
+.home-content-sections p {
+    text-align: justify;
+}
+
+.home-content-sections h3 {
+    font-weight: 400;
+}
+
+.subheader {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(255, 102, 0);
+    margin-bottom: 1em;
+    min-height: 5em;
+    text-align: justify;
+}
+
+.powered-title {
+    color: rgb(255, 153, 0);
+}
+
+.justify {
+    text-align: justify;
+}
+
+div.y {
+    background-image: url('../img/foundation/tick.png');
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+@media (max-width: 768px),
+(max-device-width:768px)
+{
+    .donate h3 {
+        text-align: center;
+    }
+}
+
+.support-plans thead th, thead td {
+    min-width: 6em;
+    font-weight: bold;
+}
+
+@media (max-width: 600px),
+(max-device-width:600px)
+{
+    .support-plans thead th, thead td {
+        min-width: 0;
+    }
+}
+
+.support-plans tfoot td {
+    background-color: rgb(231, 231, 231);;
+
+}
+
+.thead-plan th {
+    font-weight: normal;
+    color: #f6f6f6;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(78, 78, 78);
+}
+
+.menu {
+    width: 200px;
+    list-style-type: none;
+}
+
+.toplevel {
+    display: block;
+    padding: 0 10px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.dropdown {
+    z-index: 200;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 12em;
+    list-style-type: none;
+    z-index: 200;
+
+    margin-top: 6em;
+
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    border-radius: 10px;
+}
+
+#nav .submenu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+
+.home-ads {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #dddddd;
+}
+
+.support-containers {
+    min-height: 10em;
+}
+
+.support-containers h4 {
+    border-bottom: 1px solid;
+    border-bottom-color: #ffa73f;
+
+}
+
+.about-icons {
+    border-top: 1px solid #ffa73f;
+    padding: 26px 0 12px;
+}
+
+.about-icons img {
+    float: left;
+    padding-left: 20px;
+}
+
+/*.about-icons p{*/
+/*float: left;    padding-left: 20px;*/
+/*}*/
+.about-icons h3 {
+    float: left;
+    padding-left: 20px;
+}
+
+.image-shadow {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* =Home Ad Button
+--------------*/
+
+.button-home-button span {
+    background-color: rgba(32, 32, 32, 0.77);
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 6px rgba(255, 71, 0, 0.6);
+    clear: both;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 1em;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.button-home-button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none;
+}
+
+.button-home-button span:hover {
+    color: rgb(255, 71, 0);
+}
+
+@media (max-width: 768px),
+(max-device-width:768px)
+{
+    .home-ads {
+        margin-bottom: 20px;
+    }
+    .home-content-sections { 
+        min-height: inherit;
+    }
+    .subheader {
+        min-height: inherit;
+    }
+    
+    .submenu  {
+       border:none;
+      }
+    .submenu li a {
+        display: none;
+      }
+      .submenu a {
+        padding: 0;
+      }
+    
+      .submenu:after {
+        content: "";
+        display: none;
+        left: 0;
+        width: 0;
+        height: 0;
+        position: inherit;
+        top: 0;
+      }
+}
+
+
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+
+.home-footer {
+    margin-top: 160px;
+    padding-top: 40px;
+    width: 100%;
+    min-height: 400px;
+    background-image: linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -o-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -moz-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -webkit-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+    background-image: -ms-linear-gradient(bottom, rgb(45, 45, 46) 18%, rgb(43, 43, 46) 67%);
+
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.18, rgb(45, 45, 46)), color-stop(0.67, rgb(43, 43, 46)));
+}
+
+.home-footer {
+    color: #ffffff;
+}
+
+.home-footer a {
+    color: #ffffff;
+}
+
+.home-footer a:hover {
+    color: #EA832F;
+}
+
+.footer-logo {
+    float: right;
+    text-align: right;
+}
+
+.footer-logo p {
+    margin-bottom: 0;
+}
+
+.home-footer  li {
+    list-style: none;
+}
+
+.nav-footer ul {
+    margin-left: 0;
+}
+
+.nav-footer a {
+    display: block;
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+@media (max-width: 768px),
+(max-device-width:768px)
+{
+    .home-footer ul {
+        margin-left: 0;
+    }
+
+    .home-footer  li {
+        text-align: center;
+    }
+
+    .footer-logo {
+        float: none;
+        text-align: center;
+    }
+}
+
+/* =Slideshow
+-----------------------------------------------------------------------------*/
+
+.home-slideshow {
+    display: block;
+    margin: 0 auto;
+}
+
+.home-content {
+    padding-top: 60px;
+}
+
+.home-slider-container {
+    width: 100%;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.rslides li {
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_tabs {
+    padding-top: 30px;
+    width: 132px;
+    margin: 0 auto;
+}
+
+.rslides_tabs li {
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 6px;
+}
+
+.rslides_tabs a {
+    background: url('../img/foundation/pager-inactive.png') no-repeat top center;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: inline-block;
+    _display: block;
+    width: 21px;
+    height: 21px;
+}
+
+.rslides_tabs a:hover {
+    background: url('../img/foundation/pager-active.png') no-repeat top center;
+}
+
+.rslides_here a {
+    background: url('../img/foundation/pager-active.png') no-repeat top center;
+}

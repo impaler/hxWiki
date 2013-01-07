@@ -1,0 +1,33 @@
+<header class="main-header">
+
+    <div class="wrapper">
+
+        <a href="/index">
+            <img src="img/foundation/header-haxe-logo.png" class="header-haxe-logo"/>
+        </a>
+
+        <nav id="nav" class="main-nav menu">
+		<ul>
+			<li class="dropdown">
+				<a href="/about">About</a>
+					<ul class="submenu">
+						<li><a href="/why_haxe">Why Haxe</a></li>
+					</ul>
+			</li>
+			<li>
+				<a href="/projects">Projects</a>
+			</li>
+			<li>
+					<a href="/donate">Donate</a>
+			</li>
+			<li>
+				<a href="/contact">Contact</a>
+			</li>
+		</ul>
+        </nav>
+
+    </div>
+
+    <br style="clear:both;"/>
+
+</header>
