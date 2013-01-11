@@ -16,9 +16,8 @@
 
 				<nav class="nav-footer">
 					<ul>
-						<li><a href="#">Map</a></li>
-						<li><a href="#">Latest Changes</a></li>
-						<li><a href="#">Login</a></li>
+						<li><a href="/wiki/map">Map</a></li>
+						<li><a href="/wiki/register">Login</a></li>
 					</ul>
 				</nav>
 
@@ -58,13 +57,14 @@
 			<div class="fifth">
 
 				<div class="footer-logo">
-					<img src="img/foundation/haxe-logo-footer.png"/>
+					<a href="http://www.haxe.org">
+					<img src="/img/foundation/haxe-logo-footer.png"/>
 					<br/>
 					<br/>
-
+					</a>
 					<p>All rights reserved</p>
 
-					<p><span class="powered-title">Powered by Haxe</span></p>
+					<p><a href="http://www.haxe.org"><span class="powered-title">Powered by Haxe</span></a></p>
 				</div>
 
 			</div>

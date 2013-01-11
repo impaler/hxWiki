@@ -611,3 +611,98 @@ div.y {
 .rslides_here a {
     background: url('../img/foundation/pager-active.png') no-repeat top center;
 }
+
+/* WIKI MAP */
+
+ul.map li {
+	-moz-border-radius	: 10px;
+}
+
+ul.map li:hover {
+	background-color	: #f2f9fd;
+}
+
+ul.map li ul.map {
+	margin-left			: 8px;
+	border-left			: 1px solid #c2d9e6;
+}
+
+ul.map li li {
+	margin-left	 		: 30px;
+}
+
+ul.map a {
+	text-decoration		: none;
+}
+
+ul.map a {
+	font-style 			: italic;
+}
+
+ul.map a.has_content {
+	font-style 			: normal;
+}
+
+ul.map .no_content, ul.map .browse {
+	width 		: 20px;
+	float		: left;
+}
+
+ul.map .browse {
+	background 			: url('../img/haxe/items/plus.gif') no-repeat left center;
+	cursor		: pointer;
+}
+
+ul.map .no_content {
+	background 			: url('../img/common/txt2.gif') no-repeat 1px center;
+}
+
+/* EDITOR */
+
+.editor .tfield {
+	font-size			: 13.5pt;
+	vertical-align		: middle;
+}
+
+.editor .field {
+	width				: 100%;
+	font-size			: 13.5pt;
+	padding-bottom		: 4px;
+}
+
+ul.buttons {
+	height				: 25px;
+	margin-top			: 20px;
+    margin-left: 0;
+}
+
+ul.buttons li {
+	float				: left;
+	margin-right		: 10px;
+    list-style: none;
+	background			: #f4fafd url('../img/haxe/buttons/button0.gif') repeat-x bottom left;
+	border				: 1px solid #bde1f6;
+	font-size			: 9pt;
+	min-width			: 20px;
+	text-align			: center;
+}
+
+ul.buttons li a {
+	text-decoration		: none;
+	padding				: 0px 10px;
+}
+
+ul.buttons li:hover {
+	background			: #f8fcfe url('../img/haxe/buttons/button0_hover.gif');
+	border-color		: #70bdeb;
+}
+
+
+
+textarea {
+	font-family			: "trebuchet ms", sans-serif;
+	font-size			: 9pt;
+	width				: 100%;
+	height				: 300px;
+	padding				: 5px 0px 0px 5px;
+}

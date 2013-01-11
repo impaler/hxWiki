@@ -41,10 +41,9 @@
 							<h3>Haxe compiler and standard library</h3>
 
 							<p>the core technical base on which everything else is built.
-								Released as Open Source on <a href="http://code.google.com/p/haxe" class="extern">Google
-									Code</a>,
-								and available on <a href="http://haxe.org">Haxe.org</a>
+								Released as Open Source on <a href="http://code.google.com/p/haxe" class="extern">Google Code</a>.
 							</p>
+							<a href="http://haxe.org">Haxe.org</a>
 						</div>
 					</div>
 
@@ -59,10 +58,9 @@
 						<div class="fourfifth">
 							<h3>Haxelib</h3>
 
-							<p> the haxe open source libraries repository, on which developers can easily share
-								libraries with
-								others. Check <a href="http://lib.haxe.org">http://lib.haxe.org</a>
+							<p> The haxe open source libraries repository, on which developers can easily share libraries with others.
 							</p>
+							<a href="http://lib.haxe.org">lib.haxe.org</a>
 						</div>
 					</div>
 
@@ -81,13 +79,30 @@
 							<p>NME is a complete cross platform game engine which leverage Haxe to be one of the best
 								tool to build
 								mobile and web games. Based on the familiar Flash API, NME runs native on every device.
-								Read more on <a href="http://nme.io">http://haxenme.org</a>
 							</p>
+							<a href="http://nme.io">nme.io</a>
 						</div>
 					</div>
 
 					<hr/>
+					
+					<div class="row">
 
+						<div class="fifth">
+							<img src="img/foundation/neko.jpg" alt="neko"/>
+						</div>
+
+						<div class="fourfifth">
+							<h3>Neko</h3>							
+							<p>Neko is a high-level dynamicly typed programming language. It can be used as an embedded scripting language. 
+							It has been designed to provide a common runtime for several different languages.</p>
+							<a href="http://nekovm.org/">nekovm.org</a>
+
+						</div>
+					</div>
+					
+					<hr/>
+					
 				</div>
 
 			</div>

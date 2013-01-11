@@ -27,7 +27,7 @@
 
 				<div class="half">
 					<h3>Haxe Logo</h3>
-					<img src="img/foundation/logo.png" alt="haxe.png"/><br/>
+					<img src="img/foundation/logo.png" alt="Haxe Logo"/><br/>
 					<a href="file/haxe-logo.svg">SVG</a>
 					<a href="file/haxe-logo.eps">EPS</a>
 					<a href="file/haxe-logo.png">PNG</a>
@@ -35,7 +35,7 @@
 
 				<div class="half">
 					<h3>NME Logo</h3>
-					<img src="img/foundation/nme.png" alt="nme.png"/><br/>
+					<img src="img/foundation/nme.png" alt="NME"/><br/>
 					<a href="file/nme-logo.svg">SVG</a>
 					<a href="file/nme-logo.eps">EPS</a>
 					<a href="file/nme-logo.png">PNG</a>
@@ -49,11 +49,10 @@
 
 				<div class="half">
 					<h3>Powered By Haxe</h3>
-					<img src="file/powered-by-haxe.png" alt="powered-by-haxe.png"/><br/>
-					<a href="#">SVG</a>
-					<a href="#">EPS</a>
-					<a href="#">JPG</a>
-					<a href="#">PNG</a>
+					<img src="file/powered-by-haxe.png" alt="Powered by Haxe"/><br/>
+					<a href="powered-by-haxe.svg">SVG</a>
+					<a href="powered-by-haxe.eps">EPS</a>
+					<a href="powered-by-haxe.png">PNG</a>
 				</div>
 
 			</div>

@@ -44,7 +44,7 @@
 
                     <ul id="home-slider">
                         <li>
-                            <a href="about.php">
+                            <a href="/about">
                                 <img src="img/foundation/slideshow-one-language-everywhere.jpg"/></a>
                         </li>
                         <li>
@@ -82,7 +82,7 @@
                             Haxe's strengths has always been in it's community who continue to use and improve it.</p>
 
                     </div>
-                    <a href="donate.php" class="btn btn-round home-btn"><span>Donate</span></a>
+                    <a href="/donate" class="btn btn-round home-btn"><span>Donate</span></a>
                 </div>
             </li>
             <li>
@@ -99,7 +99,7 @@
                             help you understand how your company can benefit by using Haxe.</p>
 
                     </div>
-                    <a href="why_haxe.php" class="btn btn-round home-btn"><span>Why Use Haxe?</span></a>
+                    <a href="/why_haxe" class="btn btn-round home-btn"><span>Why Use Haxe?</span></a>
                 </div>
             </li>
             <li>
@@ -114,7 +114,7 @@
                             cover many levels and can be adapted to your specific needs.</p>
 
                     </div>
-                    <a href="support.php" class="btn btn-round home-btn"><span>View our Plans</span></a>
+                    <a href="/support" class="btn btn-round home-btn"><span>View our Plans</span></a>
                 </div>
             </li>
 

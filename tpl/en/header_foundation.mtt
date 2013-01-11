@@ -3,13 +3,16 @@
     <div class="wrapper">
 
         <a href="/index">
-            <img src="img/foundation/header-haxe-logo.png" class="header-haxe-logo"/>
+            <img src="/img/foundation/header-haxe-logo.png" class="header-haxe-logo"/>
         </a>
 
         <nav id="nav" class="main-nav menu">
 		<ul>
 			<li>
 				<a href="/about">About</a>
+			</li>
+			<li>
+				<a href="/support">Support</a>
 			</li>
 			<li>
 				<a href="/projects">Projects</a>
